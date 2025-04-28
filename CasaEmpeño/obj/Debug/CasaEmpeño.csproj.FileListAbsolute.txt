@@ -32,3 +32,11 @@ C:\Users\marco\source\repos\CasaEmpeño\Casa-Empe-o\CasaEmpeño\obj\Debug\CasaEm
 C:\Users\marco\source\repos\CasaEmpeño\Casa-Empe-o\CasaEmpeño\obj\Debug\CasaEmpeño.csproj.CoreCompileInputs.cache
 C:\Users\marco\source\repos\CasaEmpeño\Casa-Empe-o\CasaEmpeño\obj\Debug\CasaEmpeño.exe
 C:\Users\marco\source\repos\CasaEmpeño\Casa-Empe-o\CasaEmpeño\obj\Debug\CasaEmpeño.pdb
+C:\Users\marco\source\repos\CasaEmpeño\Casa-Empe-o\CasaEmpeño\obj\Debug\View\BuscarProducto.baml
+C:\Users\marco\source\repos\CasaEmpeño\Casa-Empe-o\CasaEmpeño\obj\Debug\View\InformacionProductoView.baml
+C:\Users\marco\source\repos\CasaEmpeño\Casa-Empe-o\CasaEmpeño\obj\Debug\View\BuscarProducto.g.cs
+C:\Users\marco\source\repos\CasaEmpeño\Casa-Empe-o\CasaEmpeño\obj\Debug\View\InformacionProductoView.g.cs
+C:\Users\marco\source\repos\CasaEmpeño\Casa-Empe-o\CasaEmpeño\obj\Debug\View\MainView.g.cs
+C:\Users\marco\source\repos\CasaEmpeño\Casa-Empe-o\CasaEmpeño\obj\Debug\View\ProductosView.g.cs
+C:\Users\marco\source\repos\CasaEmpeño\Casa-Empe-o\CasaEmpeño\obj\Debug\View\MainView.baml
+C:\Users\marco\source\repos\CasaEmpeño\Casa-Empe-o\CasaEmpeño\obj\Debug\View\ProductosView.baml
