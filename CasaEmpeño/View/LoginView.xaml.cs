@@ -27,15 +27,25 @@ namespace CasaEmpeño.View
 
         private void btnMinimizar_Click(object sender, RoutedEventArgs e)
         {
-
+            this.WindowState = WindowState.Minimized;
         }
 
         private void btnCerrar_Click(object sender, RoutedEventArgs e)
         {
-
+            this.Close();
         }
 
         private void txtUser_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void btnIniciarSesion_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnCrearCuenta_Click(object sender, RoutedEventArgs e)
         {
 
         }
