@@ -5,8 +5,101 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CasaEmpeño.View"
         mc:Ignorable="d"
-        Title="SeleccionSucursalView" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+         Title="SeleccionSucursalView" Height="500" Width="350"
+        WindowStartupLocation="CenterScreen">
+
+    <Border CornerRadius="12" BorderThickness="2" Opacity="0.95">
+        <Border.Background>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                <GradientStop Color="White" Offset="0.2"/>
+            </LinearGradientBrush>
+        </Border.Background>
+
+        <Grid Margin="20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <!-- Icono usuario -->
+            <TextBlock Text="&#x1F464;"
+                       FontSize="30"
+                       HorizontalAlignment="Left"
+                       VerticalAlignment="Top"
+                       Margin="-18,13,0,0"/>
+
+            <!-- Título -->
+            <TextBlock Text="Seleccione una sucursal"
+                       Grid.Row="0"
+                       FontFamily="Montserrat"
+                       FontSize="24"
+                       FontWeight="SemiBold"
+                       Foreground="Black"
+                       HorizontalAlignment="Center"
+                       Margin="0,20,0,10"/>
+
+            <!-- Imagen (área para imagen de sucursal) -->
+            <Border Grid.Row="1"
+                    Width="250"
+                    Height="180"
+                    Background="LightGray"
+                    CornerRadius="10"
+                    HorizontalAlignment="Center"
+                    Margin="0,20,0,20">
+                <!-- Aquí puedes colocar una Image si gustas -->
+                <TextBlock Text="Imagen"
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"
+                           FontFamily="Montserrat"
+                           Foreground="DarkGray"
+                           FontSize="16"/>
+            </Border>
+
+            <!-- ComboBox de sucursales -->
+            <ComboBox x:Name="cmbSucursales"
+                      Grid.Row="2"
+                      Width="250"
+                      Height="35"
+                      HorizontalAlignment="Center"
+                      FontFamily="Montserrat"
+                      FontSize="14"
+                      Margin="0,0,0,20"
+                      Foreground="Black"
+                      Background="White"
+                      BorderBrush="Gray"
+                      BorderThickness="0,0,0,2">
+                <ComboBoxItem Content="Sucursal Centro"/>
+                <ComboBoxItem Content="Sucursal Norte"/>
+                <ComboBoxItem Content="Sucursal Sur"/>
+            </ComboBox>
+
+            <!-- Botones -->
+            <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,20,0,0">
+                <Button Content="Regresar"
+                        Width="100"
+                        Height="35"
+                        FontFamily="Montserrat"
+                        FontWeight="SemiBold"
+                        Background="Black"
+                        Foreground="White"
+                        BorderBrush="Transparent"
+                        Margin="5"
+                        Cursor="Hand"/>
+
+                <Button Content="Continuar"
+                        Width="100"
+                        Height="35"
+                        FontFamily="Montserrat"
+                        FontWeight="SemiBold"
+                        Background="Black"
+                        Foreground="White"
+                        BorderBrush="Transparent"
+                        Margin="5"
+                        Cursor="Hand"/>
+            </StackPanel>
+        </Grid>
+    </Border>
 </Window>
