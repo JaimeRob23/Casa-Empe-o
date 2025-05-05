@@ -70,6 +70,9 @@
     <Compile Include="View\ProductosView.xaml.cs">
       <DependentUpon>ProductosView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\RealizarEmpeñoView.xaml.cs">
+      <DependentUpon>RealizarEmpeñoView.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -103,6 +106,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\ProductosView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\RealizarEmpeñoView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
