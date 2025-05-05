@@ -58,6 +58,9 @@
     <Compile Include="View\BuscarProducto.xaml.cs">
       <DependentUpon>BuscarProducto.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\DireccionView.xaml.cs">
+      <DependentUpon>DireccionView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\EmpeñoEstimacionView.xaml.cs">
       <DependentUpon>EmpeñoEstimacionView.xaml</DependentUpon>
     </Compile>
@@ -67,11 +70,17 @@
     <Compile Include="View\MainView.xaml.cs">
       <DependentUpon>MainView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\ProcesoCompletado.xaml.cs">
+      <DependentUpon>ProcesoCompletado.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\ProductosView.xaml.cs">
       <DependentUpon>ProductosView.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\RealizarEmpeñoView.xaml.cs">
       <DependentUpon>RealizarEmpeñoView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\SeleccionSucursalView.xaml.cs">
+      <DependentUpon>SeleccionSucursalView.xaml</DependentUpon>
     </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -86,6 +95,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="View\BuscarProducto.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\DireccionView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -105,11 +118,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="View\ProcesoCompletado.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="View\ProductosView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\RealizarEmpeñoView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\SeleccionSucursalView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

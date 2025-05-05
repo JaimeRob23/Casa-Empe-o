@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\52492\source\repos\Casa_Empeno\CasaEmpeño\obj\Debug\
+C:\Users\marco\Desktop\push y pull\Casa-Empe-o\CasaEmpeño\obj\Debug\
 CasaEmpeño
 none
 false
 DEBUG;TRACE
-C:\Users\52492\source\repos\Casa_Empeno\CasaEmpeño\App.xaml
-71324426329
+C:\Users\marco\Desktop\push y pull\Casa-Empe-o\CasaEmpeño\App.xaml
+11-112867387
 
-111942892105
+161708029847
 13-1310406943
-MainWindow.xaml;View\BuscarProducto.xaml;View\EmpeñoEstimacionView.xaml;View\InformacionProductoView.xaml;View\LoginView.xaml;View\MainView.xaml;View\ProductosView.xaml;
+MainWindow.xaml;View\BuscarProducto.xaml;View\DireccionView.xaml;View\EmpeñoEstimacionView.xaml;View\InformacionProductoView.xaml;View\LoginView.xaml;View\MainView.xaml;View\ProcesoCompletado.xaml;View\ProductosView.xaml;View\RealizarEmpeñoView.xaml;View\SeleccionSucursalView.xaml;
 
-False
+True
 
