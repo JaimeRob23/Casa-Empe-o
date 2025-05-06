@@ -88,3 +88,18 @@ C:\Users\52492\source\repos\Casa-Empe-o clon\CasaEmpeño\obj\Debug\CasaEmpeño_M
 C:\Users\52492\source\repos\Casa-Empe-o clon\CasaEmpeño\obj\Debug\CasaEmpeño_MarkupCompile.lref
 C:\Users\52492\source\repos\Casa-Empe-o clon\CasaEmpeño\obj\Debug\CasaEmpeño.exe
 C:\Users\52492\source\repos\Casa-Empe-o clon\CasaEmpeño\obj\Debug\CasaEmpeño.pdb
+C:\Users\52492\source\repos\Casa_Empeno\CasaEmpeño\obj\Debug\View\DireccionView.baml
+C:\Users\52492\source\repos\Casa_Empeno\CasaEmpeño\obj\Debug\View\MetodoPagoView.baml
+C:\Users\52492\source\repos\Casa_Empeno\CasaEmpeño\obj\Debug\View\ProcesoCompletadoView.baml
+C:\Users\52492\source\repos\Casa_Empeno\CasaEmpeño\obj\Debug\View\ProductoEncontradoView.baml
+C:\Users\52492\source\repos\Casa_Empeno\CasaEmpeño\obj\Debug\CustomControls\BindablePasswordBox.g.cs
+C:\Users\52492\source\repos\Casa_Empeno\CasaEmpeño\obj\Debug\View\DireccionView.g.cs
+C:\Users\52492\source\repos\Casa_Empeno\CasaEmpeño\obj\Debug\View\MetodoPagoView.g.cs
+C:\Users\52492\source\repos\Casa_Empeno\CasaEmpeño\obj\Debug\View\ProcesoCompletadoView.g.cs
+C:\Users\52492\source\repos\Casa_Empeno\CasaEmpeño\obj\Debug\View\ProductoEncontradoView.g.cs
+C:\Users\52492\source\repos\Casa_Empeno\CasaEmpeño\obj\Debug\View\RealizarEmpeñoView.g.cs
+C:\Users\52492\source\repos\Casa_Empeno\CasaEmpeño\obj\Debug\View\SeleccionSucursalView.g.cs
+C:\Users\52492\source\repos\Casa_Empeno\CasaEmpeño\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\52492\source\repos\Casa_Empeno\CasaEmpeño\obj\Debug\CustomControls\BindablePasswordBox.baml
+C:\Users\52492\source\repos\Casa_Empeno\CasaEmpeño\obj\Debug\View\RealizarEmpeñoView.baml
+C:\Users\52492\source\repos\Casa_Empeno\CasaEmpeño\obj\Debug\View\SeleccionSucursalView.baml

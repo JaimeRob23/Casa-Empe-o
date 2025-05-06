@@ -67,6 +67,9 @@
     <Compile Include="View\EmpeñoEstimacionView.xaml.cs">
       <DependentUpon>EmpeñoEstimacionView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\InformacionProductoView.xaml.cs">
+      <DependentUpon>InformacionProductoView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\LoginView.xaml.cs">
       <DependentUpon>LoginView.xaml</DependentUpon>
     </Compile>
@@ -76,8 +79,8 @@
     <Compile Include="View\MetodoPagoView.xaml.cs">
       <DependentUpon>MetodoPagoView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\ProcesoCompletado.xaml.cs">
-      <DependentUpon>ProcesoCompletado.xaml</DependentUpon>
+    <Compile Include="View\ProcesoCompletadoView.xaml.cs">
+      <DependentUpon>ProcesoCompletadoView.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\ProductoEncontradoView.xaml.cs">
       <DependentUpon>ProductoEncontradoView.xaml</DependentUpon>
@@ -120,8 +123,8 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\InformacionProductoView.xaml">
-      <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\LoginView.xaml">
       <SubType>Designer</SubType>
@@ -135,7 +138,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="View\ProcesoCompletado.xaml">
+    <Page Include="View\ProcesoCompletadoView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -191,9 +194,6 @@
   <ItemGroup>
     <Resource Include="Images\key-icon.png" />
     <Resource Include="Images\user-icon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="View\InformacionProductoView.xaml.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -42,7 +42,10 @@ namespace CasaEmpeño.View
 
         private void btnIniciarSesion_Click(object sender, RoutedEventArgs e)
         {
-
+            //provicional, modificar una vez que se haya hecho la base de datos
+            MainView ventanaPrincipal = new MainView();
+            ventanaPrincipal.Show();
+            this.Close();
         }
 
         private void btnCrearCuenta_Click(object sender, RoutedEventArgs e)

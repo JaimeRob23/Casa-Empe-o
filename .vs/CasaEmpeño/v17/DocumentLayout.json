@@ -3,15 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\52492\\source\\repos\\Casa-Empe-o clon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{028B4F45-6F4E-4EBD-9350-3BE95E6677DB}|CasaEmpe\u00F1o\\CasaEmpe\u00F1o.csproj|c:\\users\\52492\\source\\repos\\casa-empe-o clon\\casaempe\u00F1o\\view\\productoencontradoview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{028B4F45-6F4E-4EBD-9350-3BE95E6677DB}|CasaEmpe\u00F1o\\CasaEmpe\u00F1o.csproj|solutionrelative:casaempe\u00F1o\\view\\productoencontradoview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{028B4F45-6F4E-4EBD-9350-3BE95E6677DB}|CasaEmpe\u00F1o\\CasaEmpe\u00F1o.csproj|c:\\users\\52492\\source\\repos\\casa-empe-o clon\\casaempe\u00F1o\\view\\metodopagoview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{028B4F45-6F4E-4EBD-9350-3BE95E6677DB}|CasaEmpe\u00F1o\\CasaEmpe\u00F1o.csproj|solutionrelative:casaempe\u00F1o\\view\\metodopagoview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{028B4F45-6F4E-4EBD-9350-3BE95E6677DB}|CasaEmpe\u00F1o\\CasaEmpe\u00F1o.csproj|c:\\users\\52492\\source\\repos\\casa-empe-o clon\\casaempe\u00F1o\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{028B4F45-6F4E-4EBD-9350-3BE95E6677DB}|CasaEmpe\u00F1o\\CasaEmpe\u00F1o.csproj|C:\\Users\\52492\\source\\repos\\Casa-Empe-o clon\\casaempe\u00F1o\\view\\productoencontradoview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{028B4F45-6F4E-4EBD-9350-3BE95E6677DB}|CasaEmpe\u00F1o\\CasaEmpe\u00F1o.csproj|solutionrelative:casaempe\u00F1o\\view\\productoencontradoview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{028B4F45-6F4E-4EBD-9350-3BE95E6677DB}|CasaEmpe\u00F1o\\CasaEmpe\u00F1o.csproj|C:\\Users\\52492\\source\\repos\\Casa-Empe-o clon\\casaempe\u00F1o\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{028B4F45-6F4E-4EBD-9350-3BE95E6677DB}|CasaEmpe\u00F1o\\CasaEmpe\u00F1o.csproj|solutionrelative:casaempe\u00F1o\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -81,19 +81,18 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ProductoEncontradoView.xaml",
               "DocumentMoniker": "C:\\Users\\52492\\source\\repos\\Casa-Empe-o clon\\CasaEmpe\u00F1o\\View\\ProductoEncontradoView.xaml",
               "RelativeDocumentMoniker": "CasaEmpe\u00F1o\\View\\ProductoEncontradoView.xaml",
               "ToolTip": "C:\\Users\\52492\\source\\repos\\Casa-Empe-o clon\\CasaEmpe\u00F1o\\View\\ProductoEncontradoView.xaml",
               "RelativeToolTip": "CasaEmpe\u00F1o\\View\\ProductoEncontradoView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-06T04:06:57.522Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T04:06:57.522Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MetodoPagoView.xaml",
               "DocumentMoniker": "C:\\Users\\52492\\source\\repos\\Casa-Empe-o clon\\CasaEmpe\u00F1o\\View\\MetodoPagoView.xaml",
               "RelativeDocumentMoniker": "CasaEmpe\u00F1o\\View\\MetodoPagoView.xaml",
@@ -113,8 +112,7 @@
               "RelativeToolTip": "CasaEmpe\u00F1o\\App.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T16:36:12.916Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T16:36:12.916Z"
             },
             {
               "$type": "Document",
@@ -125,8 +123,7 @@
               "ToolTip": "C:\\Users\\52492\\source\\repos\\Casa-Empe-o clon\\CasaEmpe\u00F1o\\View\\SeleccionSucursalView.xaml",
               "RelativeToolTip": "CasaEmpe\u00F1o\\View\\SeleccionSucursalView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-05T15:58:34.126Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-05T15:58:34.126Z"
             },
             {
               "$type": "Document",
@@ -137,8 +134,7 @@
               "ToolTip": "C:\\Users\\52492\\source\\repos\\Casa-Empe-o clon\\CasaEmpe\u00F1o\\View\\LoginView.xaml",
               "RelativeToolTip": "CasaEmpe\u00F1o\\View\\LoginView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-02T15:54:35.183Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-02T15:54:35.183Z"
             },
             {
               "$type": "Document",
@@ -208,8 +204,7 @@
               "ToolTip": "C:\\Users\\52492\\source\\repos\\Casa-Empe-o clon\\CasaEmpe\u00F1o\\MainWindow.xaml",
               "RelativeToolTip": "CasaEmpe\u00F1o\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-28T16:36:02.755Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T16:36:02.755Z"
             },
             {
               "$type": "Document",

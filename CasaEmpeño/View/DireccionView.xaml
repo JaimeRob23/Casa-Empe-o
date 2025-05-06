@@ -31,7 +31,7 @@
                     <ColumnDefinition Width="5"/>
                 </Grid.ColumnDefinitions>
 
-                <TextBlock Text="ESCRIBA UNA DIRECCIÓN"
+                <TextBlock Text="INGRESAR DIRECCIÓN"
                            Foreground="Black"
                            FontSize="15"
                            FontFamily="Montserrat"
