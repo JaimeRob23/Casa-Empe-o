@@ -70,8 +70,14 @@
     <Compile Include="View\MainView.xaml.cs">
       <DependentUpon>MainView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\MetodoPagoView.xaml.cs">
+      <DependentUpon>MetodoPagoView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\ProcesoCompletado.xaml.cs">
       <DependentUpon>ProcesoCompletado.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\ProductoEncontradoView.xaml.cs">
+      <DependentUpon>ProductoEncontradoView.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\ProductosView.xaml.cs">
       <DependentUpon>ProductosView.xaml</DependentUpon>
@@ -118,7 +124,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="View\MetodoPagoView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="View\ProcesoCompletado.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\ProductoEncontradoView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

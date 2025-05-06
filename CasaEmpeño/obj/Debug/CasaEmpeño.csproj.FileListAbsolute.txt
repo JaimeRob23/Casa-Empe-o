@@ -67,3 +67,24 @@ C:\Users\52492\source\repos\Casa_Empeno\CasaEmpeño\obj\Debug\CasaEmpeño.csproj
 C:\Users\52492\source\repos\Casa_Empeno\CasaEmpeño\obj\Debug\CasaEmpeño.csproj.CoreCompileInputs.cache
 C:\Users\52492\source\repos\Casa_Empeno\CasaEmpeño\obj\Debug\CasaEmpeño.exe
 C:\Users\52492\source\repos\Casa_Empeno\CasaEmpeño\obj\Debug\CasaEmpeño.pdb
+C:\Users\52492\source\repos\Casa-Empe-o clon\CasaEmpeño\obj\Debug\CasaEmpeño.csproj.AssemblyReference.cache
+C:\Users\52492\source\repos\Casa-Empe-o clon\CasaEmpeño\obj\Debug\View\BuscarProducto.baml
+C:\Users\52492\source\repos\Casa-Empe-o clon\CasaEmpeño\obj\Debug\View\DireccionView.baml
+C:\Users\52492\source\repos\Casa-Empe-o clon\CasaEmpeño\obj\Debug\View\InformacionProductoView.baml
+C:\Users\52492\source\repos\Casa-Empe-o clon\CasaEmpeño\obj\Debug\View\ProcesoCompletado.baml
+C:\Users\52492\source\repos\Casa-Empe-o clon\CasaEmpeño\obj\Debug\MainWindow.g.cs
+C:\Users\52492\source\repos\Casa-Empe-o clon\CasaEmpeño\obj\Debug\View\BuscarProducto.g.cs
+C:\Users\52492\source\repos\Casa-Empe-o clon\CasaEmpeño\obj\Debug\View\DireccionView.g.cs
+C:\Users\52492\source\repos\Casa-Empe-o clon\CasaEmpeño\obj\Debug\View\EmpeñoEstimacionView.g.cs
+C:\Users\52492\source\repos\Casa-Empe-o clon\CasaEmpeño\obj\Debug\View\InformacionProductoView.g.cs
+C:\Users\52492\source\repos\Casa-Empe-o clon\CasaEmpeño\obj\Debug\View\LoginView.g.cs
+C:\Users\52492\source\repos\Casa-Empe-o clon\CasaEmpeño\obj\Debug\View\MainView.g.cs
+C:\Users\52492\source\repos\Casa-Empe-o clon\CasaEmpeño\obj\Debug\View\ProcesoCompletado.g.cs
+C:\Users\52492\source\repos\Casa-Empe-o clon\CasaEmpeño\obj\Debug\View\ProductosView.g.cs
+C:\Users\52492\source\repos\Casa-Empe-o clon\CasaEmpeño\obj\Debug\View\RealizarEmpeñoView.g.cs
+C:\Users\52492\source\repos\Casa-Empe-o clon\CasaEmpeño\obj\Debug\View\SeleccionSucursalView.g.cs
+C:\Users\52492\source\repos\Casa-Empe-o clon\CasaEmpeño\obj\Debug\App.g.cs
+C:\Users\52492\source\repos\Casa-Empe-o clon\CasaEmpeño\obj\Debug\CasaEmpeño_MarkupCompile.cache
+C:\Users\52492\source\repos\Casa-Empe-o clon\CasaEmpeño\obj\Debug\CasaEmpeño_MarkupCompile.lref
+C:\Users\52492\source\repos\Casa-Empe-o clon\CasaEmpeño\obj\Debug\CasaEmpeño.exe
+C:\Users\52492\source\repos\Casa-Empe-o clon\CasaEmpeño\obj\Debug\CasaEmpeño.pdb

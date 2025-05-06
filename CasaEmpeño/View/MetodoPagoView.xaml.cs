@@ -15,7 +15,7 @@ using System.Windows.Shapes;
 namespace CasaEmpeño.View
 {
     /// <summary>
-    /// Interaction logic for MetodoPagoView.xaml
+    /// Lógica de interacción para MetodoPagoView.xaml
     /// </summary>
     public partial class MetodoPagoView : Window
     {

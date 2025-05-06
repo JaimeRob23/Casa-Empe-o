@@ -48,7 +48,7 @@ namespace CasaEmpeño {
         public void InitializeComponent() {
             
             #line 5 "..\..\App.xaml"
-            this.StartupUri = new System.Uri("View/LoginView.xaml", System.UriKind.Relative);
+            this.StartupUri = new System.Uri("Application_Startup", System.UriKind.Relative);
             
             #line default
             #line hidden
