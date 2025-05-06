@@ -30,6 +30,8 @@ namespace CasaEmpeño.View
 
         private void btnCerrar_Click(object sender, RoutedEventArgs e)
         {
+            ProductoEncontradoView ventanaProductoEncontrado = new ProductoEncontradoView();
+            ventanaProductoEncontrado.Show();
             this.Close();
         }
     }
