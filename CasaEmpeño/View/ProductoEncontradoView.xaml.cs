@@ -15,7 +15,7 @@ using System.Windows.Shapes;
 namespace CasaEmpeño.View
 {
     /// <summary>
-    /// Lógica de interacción para ProductoEncontradoView.xaml
+    /// Interaction logic for ProductoEncontradoView.xaml
     /// </summary>
     public partial class ProductoEncontradoView : Window
     {
