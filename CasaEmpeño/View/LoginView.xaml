@@ -106,7 +106,7 @@
                                FontFamily="Montserrat"
                                FontSize="13"
                                FontWeight="Medium"
-                               Foreground="White"
+                               Foreground="Black"
                                Height="28"
                                CaretBrush="LightGray"
                                BorderBrush="DarkGray"
@@ -151,6 +151,7 @@
 
 
                 <Button x:Name="btnIniciarSesion"
+                        Command="{Binding LoginCommnand}"
                         Content="Iniciar Sesión"
                         FontFamily="Montserrat"
                         FontWeight="SemiBold"
@@ -160,7 +161,7 @@
                         Height="35"
                         Margin="0,10,0,5"
                         Cursor="Hand"
-                        Click="btnIniciarSesion_Click">
+                        >
                     <Button.Style>
                         <Style TargetType="Button">
                             <Setter Property="Background" Value="Black"/>
@@ -183,7 +184,7 @@
                         Height="35"
                         Margin="0,5,0,0"
                         Cursor="Hand"
-                        Click="btnCrearCuenta_Click">
+                        >
                     <Button.Style>
                         <Style TargetType="Button">
                             <Setter Property="Background" Value="Gray"/>

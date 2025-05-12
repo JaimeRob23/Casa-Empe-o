@@ -12,7 +12,7 @@ namespace CasaEmpeño.Repositories
         private readonly string _connectionString;
         public RepositoryBase() {
             _connectionString =
-                "Server= LAPTOP-AD3JA0LH\\BDGESTION; " +
+                "Server= DESKTOP-HO347SI\\VSGESTION; " +
                 "Database=CasaEmpeno; " +
                 "Integrated Security = true";
         }
