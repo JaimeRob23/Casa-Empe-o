@@ -161,6 +161,10 @@
 
                 <Button x:Name="btnIniciarSesion"
                         Command="{Binding LoginCommand}"
+<<<<<<< HEAD
+                        CommandParameter="{Binding RelativeSource={RelativeSource AncestorType=Window}}"
+=======
+>>>>>>> 7a177d5e2111b94b28dc134455f1ceb19e8361e7
                         Content="Iniciar Sesión"
                         FontFamily="Montserrat"
                         FontWeight="SemiBold"
@@ -169,7 +173,7 @@
                         BorderBrush="Transparent"
                         Height="35"
                         Margin="0,10,0,5"
-                        Cursor="Hand"
+                        Cursor="Hand" Click="btnIniciarSesion_Click_1"
                         >
                     <Button.Style>
                         <Style TargetType="{x:Type Button}">

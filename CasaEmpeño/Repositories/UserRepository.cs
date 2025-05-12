@@ -45,9 +45,9 @@ namespace CasaEmpeño.Repositories
             {
                 connection.Open();
                 command.Connection = connection;
-                command.CommandText = "select * from [User] where username= @username and [password]=@password";
-                command.Parameters.Add("@username", System.Data.SqlDbType.NVarChar).Value = credential.UserName;
-                command.Parameters.Add("@password", System.Data.SqlDbType.NVarChar).Value=credential.Password;
+                command.CommandText = "select * from [User] where Username= @Username and [Password]=@Password";
+                command.Parameters.Add("@Username", System.Data.SqlDbType.NVarChar).Value = credential.UserName;
+                command.Parameters.Add("@Password", System.Data.SqlDbType.NVarChar).Value=credential.Password;
                 validUser=command.ExecuteScalar() == null ? false : true;
             }
             return validUser;
