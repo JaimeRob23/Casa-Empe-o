@@ -23,5 +23,30 @@ namespace CasaEmpeño.View
         {
             InitializeComponent();
         }
+        private void btnMinimizar_Click(object sender, RoutedEventArgs e)
+        {
+            this.WindowState = WindowState.Minimized;
+        }
+
+        private void btnCerrar_Click(object sender, RoutedEventArgs e)
+        {
+            EmpeñoEstimacionView ventanaEstimacion = new EmpeñoEstimacionView();
+            ventanaEstimacion.Show();
+            this.Close();
+        }
+
+        private void btnEntrega_Click(object sender, RoutedEventArgs e)
+        {
+            SeleccionSucursalView ventanaSucursal = new SeleccionSucursalView();
+            ventanaSucursal.Show();
+            this.Close();
+        }
+
+        private void btnRecibir_Click(object sender, RoutedEventArgs e)
+        {
+            DireccionView ventanaDirrecion = new DireccionView();
+            ventanaDirrecion.Show();
+            this.Close();
+        }
     }
 }

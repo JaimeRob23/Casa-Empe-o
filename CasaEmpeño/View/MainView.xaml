@@ -96,6 +96,12 @@
                                 HorizontalAlignment="Center" 
                                 VerticalAlignment="Top" 
                                 Margin="0,20,0,20">
+                    <TextBlock 
+
+                       Text="Selecciona una opción"
+                       TextAlignment="Center"
+                       TextWrapping="Wrap"
+                       FontSize="26"/>
                     <Grid>
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="*"/>
@@ -106,13 +112,14 @@
                         <Rectangle Fill="LightGray" Width="100" Height="100" Grid.Column="1"/>
                         <Rectangle Fill="LightGray" Width="100" Height="100" Grid.Column="2"/>
                     </Grid>
-                    <Button
+                    <Button x:Name="btnEmpeñar"
                             Content="Empeñar"
                             Foreground="White"
                             FontSize="16"
                             FontFamily="Montserrat"
                             Cursor="Hand"
-                            Margin="0,20,0,20">
+                            Margin="0,20,0,20"
+                            Click="btnEmpeñar_Click">
                         <Button.Style>
                             <Style TargetType="Button">
                                 <Setter Property="Background" Value="Black"/>
@@ -135,12 +142,14 @@
                         <Rectangle Fill="LightGray" Width="100" Height="100" Grid.Column="2"/>
                     </Grid>
                     <Button
+                        x:Name="btnComprar"
                         Content="Comprar"
                         Foreground="White"
                         FontSize="16"
                         FontFamily="Montserrat"
                         Cursor="Hand"
-                        Margin="0,20,0,20">
+                        Margin="0,20,0,20"
+                        Click="btnComprar_Click">
                         <Button.Style>
                             <Style TargetType="Button">
                                 <Setter Property="Background" Value="Black"/>

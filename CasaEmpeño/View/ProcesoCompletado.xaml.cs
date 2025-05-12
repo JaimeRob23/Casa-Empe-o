@@ -23,5 +23,23 @@ namespace CasaEmpeño.View
         {
             InitializeComponent();
         }
+        private void btnMinimizar_Click(object sender, RoutedEventArgs e)
+        {
+            this.WindowState = WindowState.Minimized;
+        }
+
+        private void btnCerrar_Click(object sender, RoutedEventArgs e)
+        {
+            ProductoEncontradoView ventanaProductoEncontrado = new ProductoEncontradoView();
+            ventanaProductoEncontrado.Show();
+            this.Close();
+        }
+
+        private void btnRegresar_Click(object sender, RoutedEventArgs e)
+        {
+            MainView ventanaPrincipal = new MainView();
+            ventanaPrincipal.Show();
+            this.Close();
+        }
     }
 }

@@ -31,7 +31,7 @@
                     <ColumnDefinition Width="5"/>
                 </Grid.ColumnDefinitions>
 
-                <TextBlock Text="ESCRIBA UNA DIRECCIÓN"
+                <TextBlock Text="INGRESO DE DIRECCIÓN"
                            Foreground="Black"
                            FontSize="15"
                            FontFamily="Montserrat"
@@ -147,8 +147,7 @@
                         Foreground="White"
                         BorderBrush="Transparent"
                         Height="40"
-                        Cursor="Hand"
-                        Click="btnSiguiente_Click">
+                        Cursor="Hand">
                     <Button.Style>
                         <Style TargetType="Button">
                             <Setter Property="Background" Value="Black"/>

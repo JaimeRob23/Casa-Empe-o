@@ -113,7 +113,7 @@
                         TextAlignment="Center" 
                         TextWrapping="Wrap"
                         FontSize="26"/>
-                    <Button Width="180" Content="Recibo" FontSize="18" Foreground="White" Background="Black" Margin="0,50,0,0"/>
+                    <Button x:Name="btnRecibir" Width="180" Content="Recibo" FontSize="18" Foreground="White" Background="Black" Margin="0,50,0,0" Click="btnRecibir_Click"/>
                 </StackPanel>
                 <StackPanel Width="220" Grid.Column="1" Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,20,0,20">
                     <TextBlock Width="200" 
@@ -128,7 +128,7 @@
                         TextAlignment="Center"
                         TextWrapping="Wrap"
                         FontSize="26"/>
-                    <Button Width="180" Content="Entrega" FontSize="18" Foreground="White" Background="Black" Margin="0,50,0,0"/>
+                    <Button x:Name="btnEntrega" Width="180" Content="Entrega" FontSize="18" Foreground="White" Background="Black" Margin="0,50,0,0" Click="btnEntrega_Click"/>
                 </StackPanel>
             </Grid>
         </Grid>
