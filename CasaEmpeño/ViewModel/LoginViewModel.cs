@@ -3,25 +3,30 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Security;
+using System.Security.Cryptography;
 using System.Security.Principal;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Windows;
 using System.Windows.Input;
 using CasaEmpeño.Model;
 using CasaEmpeño.Repositories;
+using CasaEmpeño.View;
 
 namespace CasaEmpeño.ViewModel
 {
-    public class LoginViewModel: ViewModelBase
+    public class LoginViewModel : ViewModelBase
     {
         private string _username;
         private SecureString _password;
         private string _errorMessage;
         private bool _isViewVisible = true;
-        private IUserRepository userRepository;
+        private UserRepository userRepository;
 
-
+        // Commands
+        public ICommand LoginCommand { get; }
+        public ICommand ShowPasswordCommand { get; }
         // Propiedades
         public string Username
         {
@@ -63,10 +68,6 @@ namespace CasaEmpeño.ViewModel
             }
         }
 
-        // Commands
-        public ICommand LoginCommand { get; }
-        public ICommand ShowPasswordCommand { get; }
-
         // Constructor
         public LoginViewModel()
         {
@@ -101,7 +102,19 @@ namespace CasaEmpeño.ViewModel
             {
                 Thread.CurrentPrincipal = new GenericPrincipal(
                     new GenericIdentity(Username), null);
-                IsViewVisible = false;
+                var ventanaPrincipal = new View.MainView();
+                ventanaPrincipal.Show();
+                Application.Current.Dispatcher.Invoke(() =>
+                {
+                    foreach (Window window in Application.Current.Windows)
+                    {
+                        if (window is View.LoginView)
+                        {
+                            window.Close();
+                            break;
+                        }
+                    }
+                });
             }
             else
             {

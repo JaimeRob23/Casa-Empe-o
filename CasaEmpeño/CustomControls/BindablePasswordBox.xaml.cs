@@ -26,8 +26,8 @@ namespace CasaEmpeño.CustomControls
             txtPassword.PasswordChanged += OnPasswordChanged;
         }
 
-        public static readonly DependencyProperty PasswordProperty =
-            DependencyProperty.Register("Password",
+        public static readonly DependencyProperty 
+            PasswordProperty = DependencyProperty.Register("Password",
                 typeof(SecureString),
                 typeof(BindablePasswordBox));
 

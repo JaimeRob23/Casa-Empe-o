@@ -3,10 +3,16 @@ using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Net;
+using System.Security;
+using System.Security.Cryptography;
+using System.Security.Principal;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
-using System.Windows.Documents;
+using System.Windows;
+using System.Windows.Input;
 using CasaEmpeño.Model;
+using CasaEmpeño.Repositories;
 
 namespace CasaEmpeño.Repositories
 {
