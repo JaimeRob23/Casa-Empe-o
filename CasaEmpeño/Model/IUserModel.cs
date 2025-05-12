@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CasaEmpeño.Model
 {
-    internal interface IUserRepository
+    public interface IUserRepository
     {
         bool AuthenticateUser(NetworkCredential credential);
 
@@ -15,10 +15,11 @@ namespace CasaEmpeño.Model
 
         void Edit(UserModel userModel);
 
-        void Remove(int id);
+        void Delete(UserModel userModel);
 
         UserModel GetById(int id);
 
         UserModel GetByUsername(string username);
+        void Delete(string id);
     }
 }

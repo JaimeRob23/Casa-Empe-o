@@ -119,3 +119,5 @@ C:\Users\marco\Desktop\Nueva carpeta\Casa-Empe-o\CasaEmpeño\obj\Debug\CasaEmpe�
 C:\Users\marco\Desktop\Nueva carpeta\Casa-Empe-o\CasaEmpeño\obj\Debug\CasaEmpeño_MarkupCompile.lref
 C:\Users\marco\Desktop\Nueva carpeta\Casa-Empe-o\CasaEmpeño\obj\Debug\CasaEmpeño.exe
 C:\Users\marco\Desktop\Nueva carpeta\Casa-Empe-o\CasaEmpeño\obj\Debug\CasaEmpeño.pdb
+C:\Users\marco\Desktop\push y pull\Casa-Empe-o\CasaEmpeño\obj\Debug\CasaEmpeño.exe
+C:\Users\marco\Desktop\push y pull\Casa-Empe-o\CasaEmpeño\obj\Debug\CasaEmpeño.pdb

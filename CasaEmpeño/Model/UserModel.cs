@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CasaEmpeño.Model
 {
-    internal class UserModel
+    public class UserModel
     {
         public string Id { get; set; }
         public string Name { get; set; }
@@ -14,5 +14,7 @@ namespace CasaEmpeño.Model
         public string Password { get; set; }
         public String Username { get; set; }
         public String LastName { get; set; }
+
+
     }
 }

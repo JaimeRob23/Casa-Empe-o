@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CasaEmpeño.Repositories
 {
-    internal abstract class RepositoryBase
+    public abstract class RepositoryBase
     {
         private readonly string _connectionString;
         public RepositoryBase() {
