@@ -5,11 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CasaEmpeño.View"
         mc:Ignorable="d"
-        Title="SeleccionSucursalView" Height="450" Width="800"
-        WindowStyle="None"
-        WindowStartupLocation="CenterScreen"
-        Background="Transparent"
-        AllowsTransparency="True">
+         Title="SeleccionSucursalView" Height="500" Width="350"
+        WindowStartupLocation="CenterScreen">
+
     <Border CornerRadius="12" BorderThickness="2" Opacity="0.95">
         <Border.Background>
             <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
@@ -17,103 +15,24 @@
             </LinearGradientBrush>
         </Border.Background>
 
-        <Grid>
+        <Grid Margin="20">
             <Grid.RowDefinitions>
-                <RowDefinition Height="30"/>
-
-                <RowDefinition/>
-
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
 
-
-            <Grid Grid.Row="0">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition Width="25"/>
-                    <ColumnDefinition Width="25"/>
-                    <ColumnDefinition Width="5"/>
-                </Grid.ColumnDefinitions>
-                <TextBlock Text="SELECCIONA LA FORMA DE ENTREGA"
-               Foreground="Black"
-               FontSize="15"
-               FontFamily="Montserrat"
-               Grid.Column="0"
-               VerticalAlignment="Center"
-               Margin="10,0,0,0"/>
-
-                <Button x:Name="btnMinimizar"
-            Content="-"
-            Foreground="White"
-            FontSize="16"
-            FontFamily="Montserrat"
-            Cursor="Hand"
-            Grid.Column="1"
-            Click="btnMinimizar_Click">
-                    <Button.Style>
-                        <Style TargetType="Button">
-                            <Setter Property="Background" Value="Black"/>
-                            <Style.Triggers>
-                                <Trigger Property="IsMouseOver" Value="True">
-                                    <Setter Property="Background" Value="BlueViolet"/>
-                                </Trigger>
-                            </Style.Triggers>
-                        </Style>
-                    </Button.Style>
-                    <Button.Template>
-                        <ControlTemplate TargetType="Button">
-                            <Border Width="18" Height="18" CornerRadius="9" Background="{TemplateBinding Background}">
-                                <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
-                            </Border>
-                        </ControlTemplate>
-                    </Button.Template>
-                </Button>
-
-                <Button x:Name="btnCerrar"
-            Content="X"
-            Foreground="White"
-            FontSize="16"
-            FontFamily="Montserrat"
-            Cursor="Hand"
-            Grid.Column="2"
-            Click="btnCerrar_Click">
-                    <Button.Style>
-                        <Style TargetType="Button">
-                            <Setter Property="Background" Value="Black"/>
-                            <Style.Triggers>
-                                <Trigger Property="IsMouseOver" Value="True">
-                                    <Setter Property="Background" Value="Red"/>
-                                </Trigger>
-                            </Style.Triggers>
-                        </Style>
-                    </Button.Style>
-                    <Button.Template>
-                        <ControlTemplate TargetType="Button">
-                            <Border Width="18" Height="18" CornerRadius="9" Background="{TemplateBinding Background}">
-                                <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
-                            </Border>
-                        </ControlTemplate>
-                    </Button.Template>
-                </Button>
-            </Grid>
-
-            <Grid Grid.Column="0" Grid.Row="1" Margin="20">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
-                </Grid.RowDefinitions>
-
-                <!-- Icono usuario -->
-                <TextBlock Text="&#x1F464;"
+            <!-- Icono usuario -->
+            <TextBlock Text="&#x1F464;"
                        FontSize="30"
                        HorizontalAlignment="Left"
                        VerticalAlignment="Top"
                        Margin="-18,13,0,0"/>
 
-                <!-- Título -->
-                <TextBlock Text="Seleccione una sucursal"
+            <!-- Título -->
+            <TextBlock Text="Seleccione una sucursal"
                        Grid.Row="0"
                        FontFamily="Montserrat"
                        FontSize="24"
@@ -122,25 +41,25 @@
                        HorizontalAlignment="Center"
                        Margin="0,20,0,10"/>
 
-                <!-- Imagen (área para imagen de sucursal) -->
-                <Border Grid.Row="1"
+            <!-- Imagen (área para imagen de sucursal) -->
+            <Border Grid.Row="1"
                     Width="250"
                     Height="180"
                     Background="LightGray"
                     CornerRadius="10"
                     HorizontalAlignment="Center"
                     Margin="0,20,0,20">
-                    <!-- Aquí puedes colocar una Image si gustas -->
-                    <TextBlock Text="Imagen"
+                <!-- Aquí puedes colocar una Image si gustas -->
+                <TextBlock Text="Imagen"
                            HorizontalAlignment="Center"
                            VerticalAlignment="Center"
                            FontFamily="Montserrat"
                            Foreground="DarkGray"
                            FontSize="16"/>
-                </Border>
+            </Border>
 
-                <!-- ComboBox de sucursales -->
-                <ComboBox x:Name="cmbSucursales"
+            <!-- ComboBox de sucursales -->
+            <ComboBox x:Name="cmbSucursales"
                       Grid.Row="2"
                       Width="250"
                       Height="35"
@@ -152,14 +71,14 @@
                       Background="White"
                       BorderBrush="Gray"
                       BorderThickness="0,0,0,2">
-                    <ComboBoxItem Content="Sucursal Centro"/>
-                    <ComboBoxItem Content="Sucursal Norte"/>
-                    <ComboBoxItem Content="Sucursal Sur"/>
-                </ComboBox>
+                <ComboBoxItem Content="Sucursal Centro"/>
+                <ComboBoxItem Content="Sucursal Norte"/>
+                <ComboBoxItem Content="Sucursal Sur"/>
+            </ComboBox>
 
-                <!-- Botones -->
-                <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,20,0,0">
-                    <Button Content="Regresar"
+            <!-- Botones -->
+            <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,20,0,0">
+                <Button Content="Regresar"
                         Width="100"
                         Height="35"
                         FontFamily="Montserrat"
@@ -170,7 +89,7 @@
                         Margin="5"
                         Cursor="Hand"/>
 
-                    <Button Content="Continuar"
+                <Button Content="Continuar"
                         Width="100"
                         Height="35"
                         FontFamily="Montserrat"
@@ -180,8 +99,7 @@
                         BorderBrush="Transparent"
                         Margin="5"
                         Cursor="Hand"/>
-                </StackPanel>
-            </Grid>
+            </StackPanel>
         </Grid>
     </Border>
 </Window>

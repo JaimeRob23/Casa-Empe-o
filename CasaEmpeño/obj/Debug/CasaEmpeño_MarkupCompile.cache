@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\52492\source\repos\Casa_Empeno\CasaEmpeño\obj\Debug\
+C:\Users\marco\Desktop\Nueva carpeta\Casa-Empe-o\CasaEmpeño\obj\Debug\
 CasaEmpeño
 none
 false
 DEBUG;TRACE
-C:\Users\52492\source\repos\Casa_Empeno\CasaEmpeño\App.xaml
-14-1161147634
+C:\Users\marco\Desktop\Nueva carpeta\Casa-Empe-o\CasaEmpeño\App.xaml
+14-1817385229
 
-181700466888
+182068795255
 13-1310406943
-CustomControls\BindablePasswordBox.xaml;MainWindow.xaml;View\BuscarProducto.xaml;View\DireccionView.xaml;View\EmpeñoEstimacionView.xaml;View\InformacionProductoView.xaml;View\LoginView.xaml;View\MainView.xaml;View\MetodoPagoView.xaml;View\ProcesoCompletadoView.xaml;View\ProductoEncontradoView.xaml;View\ProductosView.xaml;View\RealizarEmpeñoView.xaml;View\SeleccionSucursalView.xaml;
+CustomControls\BindablePasswordBox.xaml;MainWindow.xaml;View\BuscarProducto.xaml;View\DireccionView.xaml;View\EmpeñoEstimacionView.xaml;View\InformacionProductoView.xaml;View\LoginView.xaml;View\MainView.xaml;View\MetodoPagoView.xaml;View\ProcesoCompletado.xaml;View\ProductoEncontradoView.xaml;View\ProductosView.xaml;View\RealizarEmpeñoView.xaml;View\SeleccionSucursalView.xaml;
 
-False
+True
 

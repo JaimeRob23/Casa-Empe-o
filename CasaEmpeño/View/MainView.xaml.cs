@@ -32,19 +32,5 @@ namespace CasaEmpeño.View
         {
             this.Close();
         }
-
-        private void btnEmpeñar_Click(object sender, RoutedEventArgs e)
-        {
-            InformacionProductoView ventanaEmpeñar = new InformacionProductoView();
-            ventanaEmpeñar.Show();
-            this.Close();
-        }
-
-        private void btnComprar_Click(object sender, RoutedEventArgs e)
-        {
-            ProductosView ventanaProductos = new ProductosView();
-            ventanaProductos.Show();
-            this.Close();
-        }
     }
 }
